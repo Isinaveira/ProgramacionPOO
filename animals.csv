@@ -1,0 +1,143 @@
+ID_ANIMAL;TYPE;REINO;RAZA;SEXO;NOMBRE;ID_PADRE;ID_MADRE;PROPIETARIO
+1;Gato;Mamífero;siamesa;MACHO;Garfield;0;0;1
+2;Gato;Mamífero;siamesa;HEMBRA;Bella;0;0;2
+3;Gato;Mamífero;siamesa;HEMBRA;Micha;0;0;2
+4;Perro;Mamífero;Salchicha;MACHO;Fuet;0;0;3
+5;Perro;Mamífero;Boxer;HEMBRA;Perla;0;0;3
+6;Perro;Mamífero;Boxer;HEMBRA;Gomi;0;0;1
+7;Oveja;Mamífero;Churra;MACHO;;0;0;2
+8;Oveja;Mamífero;Merina;HEMBRA;;0;0;2
+9;Oveja;Mamífero;Asturiana;HEMBRA;;0;0;3
+10;Vaca;Mamífero;Rubia;MACHO;;0;0;1
+11;Vaca;Mamífero;Manchega;HEMBRA;;0;0;2
+12;Vaca;Mamífero;India;HEMBRA;;0;0;1
+13;Tucán;Aves;Tucan Hispanis;MACHO;;0;0;
+14;Tucán;Aves;Tucan Hispanis;HEMBRA;;0;0;
+15;Tucán;Aves;Tucan Hispanis;HEMBRA;;0;0;
+16;Pez Payaso;Pez;Payasus Maximus;MACHO;;0;0;
+17;Pez Payaso;Pez;Payasus Maximus;HEMBRA;;0;0;
+18;Pez Payaso;Pez;Payasus Maximus;HEMBRA;;0;0;
+19;Gato;Mamífero;siamesa;HEMBRA;;1;2;2
+20;Gato;Mamífero;siamesa;HEMBRA;;1;3;2
+21;Perro;Mamífero;Salchicha;HEMBRA;;4;5;3
+22;Perro;Mamífero;Salchicha;HEMBRA;;4;6;1
+23;Oveja;Mamífero;Churra;MACHO;;7;8;2
+24;Oveja;Mamífero;Churra;MACHO;;7;9;3
+25;Vaca;Mamífero;Rubia;MACHO;;10;11;2
+26;Vaca;Mamífero;Rubia;MACHO;;10;12;1
+27;Tucán;Aves;Tucan Hispanis;MACHO;;13;14;
+28;Tucán;Aves;Tucan Hispanis;MACHO;;13;15;
+29;Pez Payaso;Pez;Payasus Maximus;MACHO;;16;17;
+30;Pez Payaso;Pez;Payasus Maximus;MACHO;;16;18;
+31;Oveja;Mamífero;Churra;MACHO;;23;8;2
+32;Oveja;Mamífero;Churra;MACHO;;23;9;3
+33;Oveja;Mamífero;Churra;MACHO;;24;8;2
+34;Oveja;Mamífero;Churra;MACHO;;24;9;3
+35;Vaca;Mamífero;Rubia;MACHO;;25;11;2
+36;Vaca;Mamífero;Rubia;MACHO;;25;12;1
+37;Vaca;Mamífero;Rubia;MACHO;;26;11;2
+38;Vaca;Mamífero;Rubia;MACHO;;26;12;1
+39;Tucán;Aves;Tucan Hispanis;MACHO;;27;14;
+40;Tucán;Aves;Tucan Hispanis;MACHO;;27;15;
+41;Tucán;Aves;Tucan Hispanis;MACHO;;28;14;
+42;Tucán;Aves;Tucan Hispanis;MACHO;;28;15;
+43;Pez Payaso;Pez;Payasus Maximus;MACHO;;29;17;
+44;Pez Payaso;Pez;Payasus Maximus;MACHO;;29;18;
+45;Pez Payaso;Pez;Payasus Maximus;MACHO;;30;17;
+46;Pez Payaso;Pez;Payasus Maximus;MACHO;;30;18;
+47;Oveja;Mamífero;Churra;MACHO;;31;8;2
+48;Oveja;Mamífero;Churra;MACHO;;31;9;3
+49;Oveja;Mamífero;Churra;MACHO;;32;8;2
+50;Oveja;Mamífero;Churra;MACHO;;32;9;3
+51;Oveja;Mamífero;Churra;MACHO;;33;8;2
+52;Oveja;Mamífero;Churra;MACHO;;33;9;3
+53;Oveja;Mamífero;Churra;MACHO;;34;8;2
+54;Oveja;Mamífero;Churra;MACHO;;34;9;3
+55;Vaca;Mamífero;Rubia;MACHO;;35;11;2
+56;Vaca;Mamífero;Rubia;MACHO;;35;12;1
+57;Vaca;Mamífero;Rubia;MACHO;;36;11;2
+58;Vaca;Mamífero;Rubia;MACHO;;36;12;1
+59;Vaca;Mamífero;Rubia;MACHO;;37;11;2
+60;Vaca;Mamífero;Rubia;MACHO;;37;12;1
+61;Vaca;Mamífero;Rubia;MACHO;;38;11;2
+62;Vaca;Mamífero;Rubia;MACHO;;38;12;1
+63;Tucán;Aves;Tucan Hispanis;MACHO;;39;14;
+64;Tucán;Aves;Tucan Hispanis;MACHO;;39;15;
+65;Tucán;Aves;Tucan Hispanis;MACHO;;40;14;
+66;Tucán;Aves;Tucan Hispanis;MACHO;;40;15;
+67;Tucán;Aves;Tucan Hispanis;MACHO;;41;14;
+68;Tucán;Aves;Tucan Hispanis;MACHO;;41;15;
+69;Tucán;Aves;Tucan Hispanis;MACHO;;42;14;
+70;Tucán;Aves;Tucan Hispanis;MACHO;;42;15;
+71;Pez Payaso;Pez;Payasus Maximus;MACHO;;43;17;
+72;Pez Payaso;Pez;Payasus Maximus;MACHO;;43;18;
+73;Pez Payaso;Pez;Payasus Maximus;MACHO;;44;17;
+74;Pez Payaso;Pez;Payasus Maximus;MACHO;;44;18;
+75;Pez Payaso;Pez;Payasus Maximus;MACHO;;45;17;
+76;Pez Payaso;Pez;Payasus Maximus;MACHO;;45;18;
+77;Pez Payaso;Pez;Payasus Maximus;MACHO;;46;17;
+78;Pez Payaso;Pez;Payasus Maximus;MACHO;;46;18;
+79;Oveja;Mamífero;Churra;MACHO;;47;8;2
+80;Oveja;Mamífero;Churra;MACHO;;47;9;3
+81;Oveja;Mamífero;Churra;MACHO;;48;8;2
+82;Oveja;Mamífero;Churra;MACHO;;48;9;3
+83;Oveja;Mamífero;Churra;MACHO;;49;8;2
+84;Oveja;Mamífero;Churra;MACHO;;49;9;3
+85;Oveja;Mamífero;Churra;MACHO;;50;8;2
+86;Oveja;Mamífero;Churra;MACHO;;50;9;3
+87;Oveja;Mamífero;Churra;MACHO;;51;8;2
+88;Oveja;Mamífero;Churra;MACHO;;51;9;3
+89;Oveja;Mamífero;Churra;MACHO;;52;8;2
+90;Oveja;Mamífero;Churra;MACHO;;52;9;3
+91;Oveja;Mamífero;Churra;MACHO;;53;8;2
+92;Oveja;Mamífero;Churra;MACHO;;53;9;3
+93;Oveja;Mamífero;Churra;MACHO;;54;8;2
+94;Oveja;Mamífero;Churra;MACHO;;54;9;3
+95;Vaca;Mamífero;Rubia;MACHO;;55;11;2
+96;Vaca;Mamífero;Rubia;MACHO;;55;12;1
+97;Vaca;Mamífero;Rubia;MACHO;;56;11;2
+98;Vaca;Mamífero;Rubia;MACHO;;56;12;1
+99;Vaca;Mamífero;Rubia;MACHO;;57;11;2
+100;Vaca;Mamífero;Rubia;MACHO;;57;12;1
+101;Vaca;Mamífero;Rubia;MACHO;;58;11;2
+102;Vaca;Mamífero;Rubia;MACHO;;58;12;1
+103;Vaca;Mamífero;Rubia;MACHO;;59;11;2
+104;Vaca;Mamífero;Rubia;MACHO;;59;12;1
+105;Vaca;Mamífero;Rubia;MACHO;;60;11;2
+106;Vaca;Mamífero;Rubia;MACHO;;60;12;1
+107;Vaca;Mamífero;Rubia;MACHO;;61;11;2
+108;Vaca;Mamífero;Rubia;MACHO;;61;12;1
+109;Vaca;Mamífero;Rubia;MACHO;;62;11;2
+110;Vaca;Mamífero;Rubia;MACHO;;62;12;1
+111;Tucán;Aves;Tucan Hispanis;MACHO;;63;14;
+112;Tucán;Aves;Tucan Hispanis;MACHO;;63;15;
+113;Tucán;Aves;Tucan Hispanis;MACHO;;64;14;
+114;Tucán;Aves;Tucan Hispanis;MACHO;;64;15;
+115;Tucán;Aves;Tucan Hispanis;MACHO;;65;14;
+116;Tucán;Aves;Tucan Hispanis;MACHO;;65;15;
+117;Tucán;Aves;Tucan Hispanis;MACHO;;66;14;
+118;Tucán;Aves;Tucan Hispanis;MACHO;;66;15;
+119;Tucán;Aves;Tucan Hispanis;MACHO;;67;14;
+120;Tucán;Aves;Tucan Hispanis;MACHO;;67;15;
+121;Tucán;Aves;Tucan Hispanis;MACHO;;68;14;
+122;Tucán;Aves;Tucan Hispanis;MACHO;;68;15;
+123;Tucán;Aves;Tucan Hispanis;MACHO;;69;14;
+124;Tucán;Aves;Tucan Hispanis;MACHO;;69;15;
+125;Tucán;Aves;Tucan Hispanis;MACHO;;70;14;
+126;Tucán;Aves;Tucan Hispanis;MACHO;;70;15;
+127;Pez Payaso;Pez;Payasus Maximus;MACHO;;71;17;
+128;Pez Payaso;Pez;Payasus Maximus;MACHO;;71;18;
+129;Pez Payaso;Pez;Payasus Maximus;MACHO;;72;17;
+130;Pez Payaso;Pez;Payasus Maximus;MACHO;;72;18;
+131;Pez Payaso;Pez;Payasus Maximus;MACHO;;73;17;
+132;Pez Payaso;Pez;Payasus Maximus;MACHO;;73;18;
+133;Pez Payaso;Pez;Payasus Maximus;MACHO;;74;17;
+134;Pez Payaso;Pez;Payasus Maximus;MACHO;;74;18;
+135;Pez Payaso;Pez;Payasus Maximus;MACHO;;75;17;
+136;Pez Payaso;Pez;Payasus Maximus;MACHO;;75;18;
+137;Pez Payaso;Pez;Payasus Maximus;MACHO;;76;17;
+138;Pez Payaso;Pez;Payasus Maximus;MACHO;;76;18;
+139;Pez Payaso;Pez;Payasus Maximus;MACHO;;77;17;
+140;Pez Payaso;Pez;Payasus Maximus;MACHO;;77;18;
+141;Pez Payaso;Pez;Payasus Maximus;MACHO;;78;17;
+142;Pez Payaso;Pez;Payasus Maximus;MACHO;;78;18;
