@@ -1,9 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 public abstract class Animal implements ISexual, Cloneable {
     static ArrayList<Animal> listAnimals = new ArrayList<>();
@@ -20,7 +18,7 @@ public abstract class Animal implements ISexual, Cloneable {
     private int id_madre;
 
 
-    static final Integer  MAX_CRIAS  = 1;
+    static final Integer  MAX_CRIAS  = 3;
 
     public Animal(String reino, String type, String raza, MedioTypes medio, SexType sexo){
             this.reino = reino;
@@ -48,7 +46,7 @@ public abstract class Animal implements ISexual, Cloneable {
         ids_animal ++;
         listAnimals.add(this);
     }
-    public Animal(int id_animal,String reino, String type, String raza, MedioTypes medio, SexType sexo, int id_padre, int id_madre){
+    public Animal(int id_animal, String reino, String type, String raza, MedioTypes medio, SexType sexo, int id_padre, int id_madre){
         this.reino = reino;
         this.type = type;
         this.raza = raza;

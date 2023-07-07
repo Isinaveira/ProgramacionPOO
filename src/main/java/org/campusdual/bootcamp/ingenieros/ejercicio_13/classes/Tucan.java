@@ -8,7 +8,7 @@ public class Tucan extends AnimalSalvaje {
     public Tucan(String raza, SexType sex, int id_padre, int id_madre) {
         super("Aves", "Tucán", raza, MedioTypes.AEREO, sex, id_padre, id_madre);
     }
-    public Tucan(int id_animal,String raza, SexType sex, int id_padre, int id_madre) {
+    public Tucan(int id_animal, String raza, SexType sex, int id_padre, int id_madre) {
         super(id_animal, "Aves", "Tucán", raza, MedioTypes.AEREO, sex, id_padre, id_madre);
     }
 

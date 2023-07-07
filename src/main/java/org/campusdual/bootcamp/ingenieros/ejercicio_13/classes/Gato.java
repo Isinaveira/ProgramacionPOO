@@ -7,7 +7,7 @@ public class Gato extends Mascota {
     public Gato(String raza, SexType sex, int id_padre, int id_madre, String nombre, int propietario) {
         super("Mamífero", "Gato", raza, MedioTypes.TERRESTRE, sex, id_padre, id_madre, nombre, propietario);
     }
-    public Gato(int id_animal,String raza, SexType sex, int id_padre, int id_madre, String nombre, int propietario) {
+    public Gato(int id_animal, String raza, SexType sex, int id_padre, int id_madre, String nombre, int propietario) {
         super(id_animal, "Mamífero", "Gato", raza, MedioTypes.TERRESTRE, sex, id_padre, id_madre, nombre, propietario);
     }
 

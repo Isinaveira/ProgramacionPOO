@@ -21,20 +21,17 @@ public class AnimalGranja extends Animal implements Propietario {
         super(reino, type, raza, medio, sex, id_padre, id_madre);
         this.propietario = propietario;
         list_granja.add(this);
-        Granjero.list_granjeros.stream()
-                .filter(g -> g.getId_granjero() == this.getPropietario())
-                .collect(Collectors.toCollection(ArrayList::new))
-                .get(0).getOwned_Animals().add(this);
+
     }
-    public AnimalGranja(int id_animal,String reino, String type, String raza, MedioTypes medio, SexType sex,
+    public AnimalGranja(int id_animal, String reino, String type, String raza, MedioTypes medio, SexType sex,
                         int id_padre, int id_madre, int propietario){
         super(id_animal, reino, type, raza, medio, sex, id_padre, id_madre);
         this.propietario = propietario;
         list_granja.add(this);
-        Granjero.list_granjeros.stream()
-                .filter(g -> g.getId_granjero() == this.getPropietario())
-                .collect(Collectors.toCollection(ArrayList::new))
-                .get(0).getOwned_Animals().add(this);
+
+
+
+
     }
     @Override
     public int getPropietario(){

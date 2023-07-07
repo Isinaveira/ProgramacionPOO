@@ -2,10 +2,10 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
 public class Oveja extends AnimalGranja {
 
-    public Oveja( String raza, SexType sex, int propietario) {
+    public Oveja(String raza, SexType sex, int propietario) {
         super("Mamífero", "Oveja", raza, MedioTypes.TERRESTRE, sex, propietario);
     }
-    public Oveja( String raza, SexType sex, int id_padre, int id_madre, int propietario) {
+    public Oveja(String raza, SexType sex, int id_padre, int id_madre, int propietario) {
         super("Mamífero", "Oveja", raza, MedioTypes.TERRESTRE, sex, id_padre, id_madre, propietario);
     }
     public Oveja(int id_animal, String raza, SexType sex, int id_padre, int id_madre, int propietario) {

@@ -8,7 +8,7 @@ public class PezPayaso extends AnimalSalvaje {
     public PezPayaso(String raza, SexType sex , int id_padre, int id_madre) {
         super("Pez", "Pez Payaso", raza, MedioTypes.ACUATICO, sex, id_padre, id_madre);
     }
-    public PezPayaso(int id_animal,String raza, SexType sex , int id_padre, int id_madre) {
+    public PezPayaso(int id_animal, String raza, SexType sex , int id_padre, int id_madre) {
         super(id_animal, "Pez", "Pez Payaso", raza, MedioTypes.ACUATICO, sex, id_padre, id_madre);
     }
 

@@ -1,5 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
 public class Mascota extends Animal implements  Propietario{
     private String nombre;
     private String propietario;

@@ -116,7 +116,7 @@ public class Ficheros {
                 Gato g = new Gato(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7]),
                         datos[5],
@@ -127,7 +127,7 @@ public class Ficheros {
                 Perro p = new Perro(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7]),
                         datos[5],
@@ -138,7 +138,7 @@ public class Ficheros {
                Oveja o = new Oveja(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7]),
                         Integer.parseInt(datos[8])
@@ -148,7 +148,7 @@ public class Ficheros {
                 Vaca v = new Vaca(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7]),
                         Integer.parseInt(datos[8])
@@ -158,7 +158,7 @@ public class Ficheros {
                 PezPayaso p = new PezPayaso(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7])
 
@@ -168,7 +168,7 @@ public class Ficheros {
                 Tucan t = new Tucan(
                         Integer.parseInt(datos[0]),
                         datos[3],
-                        (datos[4].equalsIgnoreCase("macho"))?SexType.MACHO:SexType.HEMBRA,
+                        (datos[4].equalsIgnoreCase("macho"))? SexType.MACHO: SexType.HEMBRA,
                         Integer.parseInt(datos[6]),
                         Integer.parseInt(datos[7])
 

@@ -5,7 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class AnimalSalvaje extends Animal{
+public class AnimalSalvaje extends Animal {
     public static ArrayList<AnimalSalvaje>  list_salvajes = new ArrayList<>();
     public AnimalSalvaje(String reino, String type, String raza, MedioTypes medio, SexType sexo){
         super(reino, type, raza, medio, sexo);
@@ -15,7 +15,7 @@ public class AnimalSalvaje extends Animal{
         super(reino, type, raza, medio, sexo, id_padre, id_madre);
         list_salvajes.add(this);
     }
-    public AnimalSalvaje(int id_animal,String reino, String type, String raza, MedioTypes medio, SexType sexo, int id_padre, int id_madre){
+    public AnimalSalvaje(int id_animal, String reino, String type, String raza, MedioTypes medio, SexType sexo, int id_padre, int id_madre){
         super(id_animal,reino, type, raza, medio, sexo, id_padre, id_madre);
         list_salvajes.add(this);
     }

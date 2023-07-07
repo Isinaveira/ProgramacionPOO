@@ -1,11 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_13.Main;
-
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.stream.Collectors;
 
 public  class Mascota extends Animal implements Propietario {
@@ -21,28 +17,23 @@ public  class Mascota extends Animal implements Propietario {
         list_mascotas.add(this);
     }
     public Mascota(String reino, String type, String raza, MedioTypes medio, SexType sex ,
-                   int id_padre, int id_madre,String nombre, int propietario){
+                   int id_padre, int id_madre, String nombre, int propietario){
         super(reino, type, raza, medio, sex, id_padre, id_madre);
         this.nombre = nombre;
         this.propietario = propietario;
 
-        Granjero.list_granjeros.stream()
-                .filter(g -> g.getId_granjero() == this.getPropietario())
-                .collect(Collectors.toCollection(ArrayList::new))
-                .get(0).getOwned_Animals().add(this);
+
 
         list_mascotas.add(this);
     }
-    public Mascota(int id_animal,String reino, String type, String raza, MedioTypes medio, SexType sex ,
-                   int id_padre, int id_madre,String nombre, int propietario){
+    public Mascota(int id_animal, String reino, String type, String raza, MedioTypes medio, SexType sex ,
+                   int id_padre, int id_madre, String nombre, int propietario){
         super(id_animal,reino, type, raza, medio, sex, id_padre, id_madre);
         this.nombre = nombre;
         this.propietario = propietario;
 
-        Granjero.list_granjeros.stream()
-                .filter(g -> g.getId_granjero() == this.getPropietario())
-                .collect(Collectors.toCollection(ArrayList::new))
-                .get(0).getOwned_Animals().add(this);
+
+
 
         list_mascotas.add(this);
     }
@@ -119,7 +110,7 @@ public  class Mascota extends Animal implements Propietario {
             for(int i = 0 ; i < num_crias; i++){
 
 
-                SexType sex = (Math.random()>0.5)?SexType.MACHO : SexType.HEMBRA;
+                SexType sex = (Math.random()>0.5)? SexType.MACHO : SexType.HEMBRA;
 
                Constructor<? extends Mascota> c = this.getClass().getConstructor(
 
