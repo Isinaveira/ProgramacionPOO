@@ -3,7 +3,7 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_05;
 import org.campusdual.bootcamp.ingenieros.Utilities.Input;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
+
 
 public class Main {
     public static void main(String [] args ){
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Método 2: modulo");
         System.out.print("Introduce un número: ");
         double number = Input.real();
-        int number_entera = (int) number;
+        
         System.out.println("Parte decimal: " + number % 1);
         System.out.println("Parte entera: " + (int) number);
         System.out.println("--------------------------------");

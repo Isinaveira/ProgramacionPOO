@@ -2,7 +2,7 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_08;
 
 import org.campusdual.bootcamp.ingenieros.Utilities.Input;
 
-import java.util.ArrayList;
+
 import java.util.Stack;
 
 public class Main {
